@@ -20,7 +20,7 @@ a:hover {
   border-radius: 1500px;
   position: absolute;
   left: 90px;
-  top: 230px;
+  top: 250px;
 
 }
 
@@ -90,13 +90,15 @@ body {
   vertical-align: top;
 }
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+  position: margin;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 
@@ -105,11 +107,11 @@ body {
  */
 
 .masthead {
-  margin-bottom: 13rem;
+  margin-bottom: 9rem;
 }
 
 .masthead-brand {
-  margin-bottom: 100rem;
+  margin-bottom: 4rem;
 }
 
 .nav-masthead .nav-link {
@@ -127,7 +129,7 @@ body {
 }
 
 .nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+  margin-left: 10rem;
 }
 
 .nav-masthead .active {
@@ -152,7 +154,7 @@ body {
   padding: 0rem 1.5rem;
 }
 .cover .btn-lg {
-  padding: .5rem .5rem;
+  padding: .75rem .5rem;
   font-weight: 4rem;
 }
 
@@ -185,7 +187,7 @@ body {
   .site-wrapper-inner {
     position: absolute;
     left: 600px;
-    top: 334px;
+    top: 315px;
   }
 
   /* Handle the widths */
