@@ -26,6 +26,7 @@ a:hover {
 
 
 
+
 /*
  * Base structure
  */
@@ -70,6 +71,13 @@ body {
   padding: 2rem;
 }
 
+.log {
+padding: 0rem 1.5rem;
+}
+.log .btn-lg {
+  padding: .5rem .5rem;
+  font-weight: 4rem;
+}
 
 
 
@@ -123,10 +131,14 @@ body {
 
 .cover {
   padding: 0 1.5rem;
+  position: margin;
+  top: 50px;
+  left: 50px;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+
 }
 
 
@@ -181,6 +193,12 @@ body {
     position: absolute;
     top: 450px;
     left: 27px;
+  }
+
+  .log {
+    position: absolute;
+    top: 480px;
+    left: 10px;
   }
 
   /* Handle the widths */
